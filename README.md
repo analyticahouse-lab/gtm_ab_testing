@@ -1,2 +1,2 @@
-# ab_testing
-A/B testing cookie was created that assigns users to two different segments based in landing page sorting options.
+By setting cookies in the splitVariant document, users are divided into two different groups, 50%-50%. Here, the landing page url of women-all-shoes + gclid + bestsellers is assigned to group A, while the url of women-all-shoes + gclid is assigned to group B.
+getVariant code enables event push operation with dataLayer. In this event, information is sent to which segment the users belong. In this way, the split_variant dimension created for A/B testing is sent to GA4. When analyzing reporting, purchase data and metrics important to the brand should be taken into account.
